@@ -3,7 +3,10 @@ import {structureTool} from 'sanity/structure'
 import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './src/schemaTypes'
 
+
+
 export default defineConfig({
+  basePath : "/studio",
   name: 'default',
   title: 'NextEcommerce',
 
