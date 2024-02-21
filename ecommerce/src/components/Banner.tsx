@@ -1,8 +1,10 @@
-import React from "react";
+'use client';
+import Slider from 'react-slick';
 
-function Banner() {
+function Banner({banners}:any) {
   return (
     <div>
+
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nostrum
         magnam officia, consequatur quod porro nemo suscipit est quis deleniti
